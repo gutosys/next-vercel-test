@@ -7,15 +7,13 @@ function Tempo(props) {
             <div>{props.staticDateString} (estático)</div>
             </div>
            )
-           
-}
+        }
 
-export function getStaticProps(){
+export function getStaticProps() {
     const staticDate = new Date();
     const staticDateString = staticDate.toGMTString();
 
-    return 
-    {
+    return {
         props: {
             staticDateString
         }
