@@ -8,6 +8,6 @@ function Home() {
         <a>Acessar Página Sobre</a>
         </Link>
         </div>        
-}
+} 
 
 export default Home
