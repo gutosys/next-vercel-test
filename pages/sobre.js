@@ -1,7 +1,13 @@
+import Link from 'next/link';
+
 function Sobre() {
     return <div>
         <h1>Home Top</h1>
-        <a href="/home">Acessar Página Home</a>
+
+        <Link href="/index">
+            <a >Acessar Página Home</a>
+        </Link>
+        
         </div>        
 }
 
